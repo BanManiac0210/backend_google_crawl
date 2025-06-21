@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: "Google Crawl"
+
+server:
+  port: ${PORT:8080}
+
+serpapi:
+  api-key: ${SERP_API_KEY:No Api Key Available}
